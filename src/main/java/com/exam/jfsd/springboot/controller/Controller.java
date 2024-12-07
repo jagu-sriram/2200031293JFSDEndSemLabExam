@@ -16,7 +16,6 @@ public class Controller {
 	private APIService apiService;
 	
 	@GetMapping("getAllProducts")
-	@ResponseBody
 	public List<Object> getAllProducts()
 	{
 		return apiService.getAllProducts();
